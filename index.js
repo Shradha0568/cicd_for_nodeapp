@@ -2,7 +2,7 @@
 const express = require('express');
 const app = express();
 
-app.get('/', (req, res) => res.send('Hello CI!'));
+app.get('/', (req, res) => res.send('Hello shradha from node app!'));
 
 const port = process.env.PORT || 3000;
 if (require.main === module) {
