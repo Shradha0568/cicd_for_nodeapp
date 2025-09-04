@@ -31,10 +31,3 @@ jobs:
 
       - name: Run tests
         run: npm test
-
-      - name: Upload build artifact (optional)
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: build
-          path: ./dist   # change if your build outputs a different folder
